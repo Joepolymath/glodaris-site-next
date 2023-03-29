@@ -4,8 +4,6 @@ import Image from "next/image";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 
-
-
 export default function Aboutpage() {
   return (
     <div>
@@ -23,8 +21,6 @@ export default function Aboutpage() {
         </div>
       </section>
       <div className="bg-white w-full py-8 ">
-       
-        
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col justify-center">
@@ -87,19 +83,22 @@ export default function Aboutpage() {
           </div>
         </div>
         <div className="h-full flex items-center justify-center hidden md:flex">
-          <div className="border-r-2 border-gray-500 h-96 ml-72 font-extrabold" style={{marginTop:'-55rem',height:'55rem'}}></div>
+          <div
+            className="border-r-2 border-gray-500 h-96 ml-72 font-extrabold"
+            style={{ marginTop: "-55rem", height: "55rem" }}
+          ></div>
         </div>
       </div>
 
-      <div className="text-center py-12">
+      <div className="text-center py-12 px-8">
         <div className=" flex flex-col md:flex-row mt-12">
           <div className="w-full md:w-2/2 lg:ml-12">
             <div className="text-base md:text-lg lg:text-3xl font-bold tracking-wider text-black">
-              
-UPCOMING LEAN TRAINING & CERTIFICATION PROGRAMS!!!
+              UPCOMING LEAN TRAINING & CERTIFICATION PROGRAMS!!!
             </div>
             <div className="text-sm md:text-lg lg:text-lg text-red-600 mt-8 font-normal">
-            Lean training & certification programs build your confidence and launch you to the top most hierachy of any organization
+              Lean training & certification programs build your confidence and
+              launch you to the top most hierachy of any organization
             </div>
           </div>
 

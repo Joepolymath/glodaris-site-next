@@ -15,7 +15,7 @@ export default function Wcu() {
         </div>
 
         <div className="flex flex-wrap lg:gap-28 text-center mt-20">
-          <div className="w-full md:w-1/2 lg:w-1/4 px-4 lg:ml-20">
+          <div className="w-full md:w-1/2 lg:w-1/4 px-4 lg:ml-20 lg:mt-2">
             <div className="bg-red-600 rounded-lg shadow-lg py-12 pl-4">
               <GiRoyalLove className="text-4xl text-red-200" />
               <div className="mt-4">
@@ -37,7 +37,7 @@ export default function Wcu() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 lg:w-1/4 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-8 lg:mt-2">
             <div className="bg-red-600 py-12 rounded-lg shadow-lg">
               <BsFillPeopleFill className="text-5xl text-red-200 pl-4" />
               <div className="mt-4">
@@ -60,7 +60,7 @@ export default function Wcu() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 lg:w-1/4 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-8 lg:mt-2">
             <div className="bg-red-600 py-12 rounded-lg shadow-lg">
               <ImHeadphones className="text-5xl text-red-200 pl-4" />
 

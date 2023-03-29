@@ -1,6 +1,6 @@
 export default function Cp() {
   return (
-    <section className="w-full py-12">
+    <section className="w-full py-12 px=8">
       <div className="container mx-auto">
         <div className="text-center">
           <div className="text-2xl md:text-lg lg:text-4xl font-normal text-black">

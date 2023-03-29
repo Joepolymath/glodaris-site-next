@@ -195,7 +195,7 @@ export default function Feedbacks() {
         </div>
 
         {/* Responsive */}
-        <div className="text-center  mt-16 md:hidden">
+        <div className="text-center  mt-16 md:hidden px-4">
           <Swiper
             onSwiper={setSwiperRef}
             slidesPerView={1}

@@ -74,13 +74,13 @@ export default function Navbar() {
               <AiOutlineClose
                 onClick={() => setToggle(!Toggle)}
                 size={30}
-                className="md:hidden text-black ml-52"
+                className="md:hidden text-black ml-48"
               />
             ) : (
               <BiMenuAltLeft
                 onClick={() => setToggle(!Toggle)}
                 size={30}
-                className="md:hidden text-black  ml-52"
+                className="md:hidden text-black  ml-48"
               />
             )}
           </div>
@@ -97,12 +97,12 @@ export default function Navbar() {
                 Home
               </div>
             </Link>
-            <Link href="/about">
+            <Link href="Aboutpage">
               <div className="ml-4 px-3 text-white py-2 bg-red-400  text-sm font-medium text-gray-900 hover:text-gray-700">
                 About Us
               </div>
             </Link>
-            <Link href="/services">
+            <Link href="/Services">
               <div className="ml-4 px-3 py-2 font-light text-gray-400 font-light text-gray-400 rounded-md text-sm font-medium text-gray-900 hover:text-gray-700">
                 Our services
               </div>

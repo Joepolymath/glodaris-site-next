@@ -25,7 +25,7 @@ export default function Contact() {
     <section className="w-full py-4 bg-blue-500">
       <div>
         <div className=" flex flex-col md:flex-row mt-12">
-          <div className="w-full md:w-2/2 lg:ml-12">
+          <div className="w-full md:w-2/2 lg:ml-12 px-8 lg:px-4">
             <form onSubmit={handleSubmit} className="max-w-md mx-auto">
               <div className="grid grid-cols-2 gap-4">
                 <div>

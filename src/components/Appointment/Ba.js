@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Ba() {
   return (
-    <section className="py-8 w-full">
+    <section className="py-8 w-full px-8">
       <div className="text-center">
         <div className=" flex flex-col md:flex-row mt-12">
           <div className="w-full md:w-2/2 lg:ml-12">

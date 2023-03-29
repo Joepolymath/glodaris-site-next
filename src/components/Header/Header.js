@@ -35,7 +35,7 @@ export default function Header() {
         </div>
 
         {/* Responsive buttons */}
-        <div className="md:px-20 flex flex-col md:flex-row lg:justify-between md:hidden mt-8">
+        <div className="md:px-20 flex flex-col md:flex-row lg:justify-between md:hidden mt-8 px-8">
           <div className="px-3 py-2 text-white  bg-blue-500  text-sm font-extrabold text-gray-900 hover:text-gray-700">
             MESSAGE US
           </div>

@@ -9,7 +9,7 @@ export default function Publications() {
             PUBLICATIONS
           </div>
 
-          <div className="flex flex-col items-center py-12">
+          <div className="flex flex-col items-center py-12 px-4">
             <div className="max-w-3xl w-full">
               <div className="relative h-96">
                 <Image
