@@ -22,7 +22,7 @@ export default function Contact() {
 
  
   return (
-    <section className="w-full py-24 bg-blue-500">
+    <section className="w-full py-4 bg-blue-500">
       <div>
         <div className=" flex flex-col md:flex-row mt-12">
           <div className="w-full md:w-2/2 lg:ml-12">
