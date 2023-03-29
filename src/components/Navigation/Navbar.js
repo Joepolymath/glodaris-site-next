@@ -26,7 +26,7 @@ export default function Navbar() {
                   About Us
                 </div>
               </Link>
-              <Link href="/services">
+              <Link href="Services">
                 <div className="ml-4 px-3 py-2 font-light text-gray-400 font-light text-gray-400 rounded-md text-sm font-medium text-gray-900 hover:text-gray-700">
                   Our services
                 </div>

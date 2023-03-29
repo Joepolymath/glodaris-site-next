@@ -13,7 +13,7 @@ export default function Aboutpage() {
         <Navbar></Navbar>
 
         <div className="lg:mt-32  mt-12 text-center">
-          <div className=" l text-5xl md:text-xl lg:text-9xl text-red-400 font-extrabold">
+          <div className="text-5xl md:text-xl lg:text-9xl text-red-400 font-extrabold">
             ABOUT US
           </div>
 
@@ -43,7 +43,7 @@ export default function Aboutpage() {
               </p>
               <p className="text-gray-700 text-lg font-light tracking-wide">
                 Our goal is to provide a service that leads to a sustainable
-                policy impact of our clients' Government Relation activities and
+                policy impact of our clients Government Relation activities and
                 to a high Return on Investment on publicly funded research and
                 innovation projects. We are backed with a genuine experience
                 which assists us to offer optimum quality service to the clients
