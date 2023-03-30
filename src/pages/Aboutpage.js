@@ -7,7 +7,7 @@ import Footer from "@/components/Footer/Footer";
 export default function Aboutpage() {
   return (
     <div>
-      <section className="bg-blue-50 w-full py-12">
+      <section className="bg-blue-50 w-full h-60 lg:h-96">
         <Navbar></Navbar>
 
         <div className="lg:mt-32  mt-12 text-center">
@@ -27,7 +27,7 @@ export default function Aboutpage() {
               <h2 className="text-3xl font-bold text-gray-800 mb-4">
                 What we do?
               </h2>
-              <p className="text-gray-700 text-lg mb-6 font-light tracking-wide">
+              <p className="text-gray-700 text-sm lg:text-lg  mb-6 font-light tracking-wide">
                 GLODARIS is a Global independent consultancy firm focusing on,
                 Lean Manufacturing System, Lean Six sigma Services, Data and
                 Information Management, Data collection, Bigdata, Geographical
@@ -37,7 +37,7 @@ export default function Aboutpage() {
                 ventures, and governments and Non-governmental organizations
                 (NGO).
               </p>
-              <p className="text-gray-700 text-lg font-light tracking-wide">
+              <p className="text-gray-700 text-sm lg:text-lg font-light tracking-wide">
                 Our goal is to provide a service that leads to a sustainable
                 policy impact of our clients Government Relation activities and
                 to a high Return on Investment on publicly funded research and
@@ -46,7 +46,7 @@ export default function Aboutpage() {
                 as per their exact requirements.
               </p>
 
-              <p className="text-gray-700 text-lg mb-6 font-light tracking-wide">
+              <p className="text-gray-700 text-sm lg:text-lg  mb-6 font-light tracking-wide">
                 Being a quality centric organization, our quality experts carry
                 out a variety of quality procedures during business process and
                 give assurance that only high-quality services are delivered to
@@ -56,7 +56,7 @@ export default function Aboutpage() {
                 with the patrons.
               </p>
 
-              <p className="text-gray-700 text-lg mb-6 font-light tracking-wide">
+              <p className="text-gray-700 text-sm lg:text-lg  mb-6 font-light tracking-wide">
                 Under the competent guidance of Jamiu Yusuf Senior Director, we
                 have been able to carry out our business process in a proper
                 manner. Owing to his deep international industrial knowledge and

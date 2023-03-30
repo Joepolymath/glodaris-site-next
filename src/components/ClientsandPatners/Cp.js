@@ -1,12 +1,16 @@
+import Image from "next/image";
+
+
+
 export default function Cp() {
   return (
     <section className="w-full py-12 px=8">
       <div className="container mx-auto">
-        <div className="text-center">
-          <div className="text-2xl md:text-lg lg:text-4xl font-normal text-black">
+        <div className="">
+          <div className="text-2xl md:text-lg font-serif lg:text-4xl font-normal text-center">
             OUR CLIENTS
           </div>
-          <div className="text-sm md:text-lg lg:text-base font-light text-black mt-12">
+          <div className="text-sm md:text-lg font-mono lg:text-base font-light mt-12 px-8">
             GLODARIS has a docket of over 3000 active clients across industries
             such as Government, Automobile, Fashion, Healthcare, Food &
             Beverage, Engineering, Professional Services and Retail and INGOs
@@ -17,30 +21,46 @@ export default function Cp() {
             who GLODARIS supported with
           </div>
 
-          <div className="flex flex-wrap lg:ml-20 mt-12">
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">one</div>
+          <div className="flex flex-wrap lg:ml-20 mt-12 text-center">
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">
+              <Image src={'/Assets/mm.png'} width={200} height={200} alt="" />
+            </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">two</div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-4 lg:mt2">
+            <Image src={'/Assets/alcon.png'} width={200} height={200} alt="" />
+            </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">three</div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-4 lg:mt2">
+            <Image src={'/Assets/alo.png'} width={200} height={200} alt="" />
+            </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">four</div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-4 lg:mt2">
+            <Image src={'/Assets/solap.png'} width={200} height={200} alt="" />
+            </div>
           </div>
         </div>
 
         <div className="text-center">
-          <div className="text-2xl md:text-lg lg:text-4xl font-normal text-black mt-12">
+          <div className="text-2xl md:text-lg font-serif lg:text-4xl font-normal mt-12">
             OUR PARTNERS
           </div>
 
-          <div className="flex flex-wrap lg:ml-20 mt-12">
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">one</div>
+          <div className="flex flex-wrap lg:ml-20 mt-12 ">
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4">
+            <Image src={'/Assets/nis.png'} width={200} height={200} alt="" />
+            </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">two</div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-4 lg:mt2">
+            <Image src={'/Assets/fm.png'} width={200} height={200} alt="" />
+            </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">three</div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-4 lg:mt2">
+            <Image src={'/Assets/alo.png'} width={200} height={200} alt="" />
+            </div>
 
-            <div className="w-full md:w-1/2 lg:w-1/4 px-4 ">four</div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-4 mt-4 lg:mt2">
+            <Image src={'/Assets/solap.png'} width={200} height={200} alt="" />
+            </div>
           </div>
         </div>
       </div>
