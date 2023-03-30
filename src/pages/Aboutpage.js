@@ -7,11 +7,11 @@ import Footer from "@/components/Footer/Footer";
 export default function Aboutpage() {
   return (
     <div>
-      <section className="bg-blue-50 w-full h-60 lg:h-96">
+      <section className="bg-yellow-600 w-full h-60 lg:h-96">
         <Navbar></Navbar>
 
-        <div className="lg:mt-32  mt-12 text-center">
-          <div className="text-5xl md:text-xl lg:text-9xl text-red-400 font-extrabold">
+        <div className="lg:mt-32  mt-12 font-serif text-center">
+          <div className="text-5xl md:text-xl lg:text-9xl  font-extrabold">
             ABOUT US
           </div>
 
@@ -27,7 +27,7 @@ export default function Aboutpage() {
               <h2 className="text-3xl font-bold text-gray-800 mb-4">
                 What we do?
               </h2>
-              <p className="text-gray-700 text-sm lg:text-lg  mb-6 font-light tracking-wide">
+              <p className="text-gray-700 text-sm font-mono lg:text-lg  mb-6 font-light tracking-wide">
                 GLODARIS is a Global independent consultancy firm focusing on,
                 Lean Manufacturing System, Lean Six sigma Services, Data and
                 Information Management, Data collection, Bigdata, Geographical
@@ -37,7 +37,7 @@ export default function Aboutpage() {
                 ventures, and governments and Non-governmental organizations
                 (NGO).
               </p>
-              <p className="text-gray-700 text-sm lg:text-lg font-light tracking-wide">
+              <p className="text-gray-700 text-sm font-mono lg:text-lg font-light tracking-wide">
                 Our goal is to provide a service that leads to a sustainable
                 policy impact of our clients Government Relation activities and
                 to a high Return on Investment on publicly funded research and
@@ -46,7 +46,7 @@ export default function Aboutpage() {
                 as per their exact requirements.
               </p>
 
-              <p className="text-gray-700 text-sm lg:text-lg  mb-6 font-light tracking-wide">
+              <p className="text-gray-700 mt-8 text-sm font-mono lg:text-lg  mb-6 font-light tracking-wide">
                 Being a quality centric organization, our quality experts carry
                 out a variety of quality procedures during business process and
                 give assurance that only high-quality services are delivered to
@@ -56,7 +56,7 @@ export default function Aboutpage() {
                 with the patrons.
               </p>
 
-              <p className="text-gray-700 text-sm lg:text-lg  mb-6 font-light tracking-wide">
+              <p className="text-gray-700 text-sm font-mono lg:text-lg  mb-6 font-light tracking-wide ">
                 Under the competent guidance of Jamiu Yusuf Senior Director, we
                 have been able to carry out our business process in a proper
                 manner. Owing to his deep international industrial knowledge and
@@ -85,25 +85,25 @@ export default function Aboutpage() {
         <div className="h-full flex items-center justify-center hidden md:flex">
           <div
             className="border-r-2 border-gray-500 h-96 ml-72 font-extrabold"
-            style={{ marginTop: "-55rem", height: "55rem" }}
+            style={{ marginTop: "-75rem", height: "75rem" }}
           ></div>
         </div>
       </div>
 
-      <div className="text-center py-12 px-8">
+      <div className="text-center py-12 bg-yellow-600 font-serif px-8">
         <div className=" flex flex-col md:flex-row mt-12">
           <div className="w-full md:w-2/2 lg:ml-12">
             <div className="text-base md:text-lg lg:text-3xl font-bold tracking-wider text-black">
               UPCOMING LEAN TRAINING & CERTIFICATION PROGRAMS!!!
             </div>
-            <div className="text-sm md:text-lg lg:text-lg text-red-600 mt-8 font-normal">
+            <div className="text-sm md:text-lg lg:text-lg mt-8 font-normal">
               Lean training & certification programs build your confidence and
               launch you to the top most hierachy of any organization
             </div>
           </div>
 
-          <div className="w-full md:w-2/2 mt-12 lg:ml-8">
-            <button class="bg-blue-500 hover:bg-red-400 text-white font-bold py-2 px-4 border bg-blue-500 rounded">
+          <div className="w-full md:w-2/2 mt-12 font-mono lg:ml-8">
+            <button class="bg-gray-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
               <Link href={"readmore"}>Learn more</Link>
             </button>
           </div>
