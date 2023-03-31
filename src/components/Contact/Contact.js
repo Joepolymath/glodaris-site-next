@@ -22,16 +22,16 @@ export default function Contact() {
 
  
   return (
-    <section className="w-full py-24 bg-blue-500">
+    <section className="w-full py-4 ">
       <div>
-        <div className=" flex flex-col md:flex-row mt-12">
-          <div className="w-full md:w-2/2 lg:ml-12">
+        <div className=" flex flex-col md:flex-row mt-12 font-mono">
+          <div className="w-full md:w-2/2 lg:ml-12 px-8 lg:px-4">
             <form onSubmit={handleSubmit} className="max-w-md mx-auto">
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label
                     htmlFor="name"
-                    className="block text-sm font-medium text-gray-700"
+                    className="block text-sm font-medium "
                   >
                     Full Name
                   </label>
@@ -41,7 +41,7 @@ export default function Contact() {
                     id="name"
                     autoComplete="name"
                     required
-                    className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                    className="mt-1 focus:ring-blue-500 bg-gray-200 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-900 rounded-md px-2 h-8"
                     onChange={handleChange}
                     value={formData.name}
                   />
@@ -49,7 +49,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="email"
-                    className="block text-sm font-medium text-gray-700"
+                    className="block text-sm font-medium "
                   >
                     Your Email
                   </label>
@@ -59,7 +59,7 @@ export default function Contact() {
                     id="email"
                     autoComplete="email"
                     required
-                    className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                    className="mt-1 focus:ring-blue-500 bg-gray-200 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-900 rounded-md px-2 h-8"
                     onChange={handleChange}
                     value={formData.email}
                   />
@@ -68,7 +68,7 @@ export default function Contact() {
               <div className="mt-4">
                 <label
                   htmlFor="subject"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium"
                 >
                  Your Subject
                 </label>
@@ -77,7 +77,7 @@ export default function Contact() {
                   name="subject"
                   id="subject"
                   required
-                  className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-blue-500 bg-gray-200 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-900 rounded-md px-2 h-8"
                   onChange={handleChange}
                   value={formData.subject}
                 />
@@ -85,7 +85,7 @@ export default function Contact() {
               <div className="mt-4">
                 <label
                   htmlFor="phone"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium "
                 >
                   Phone Number
                 </label>
@@ -95,7 +95,7 @@ export default function Contact() {
                   id="phone"
                   autoComplete="tel"
                   required
-                  className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-blue-500 bg-gray-200 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-900 rounded-md px-2 h-8"
                   onChange={handleChange}
                   value={formData.phone}
                 />
@@ -103,7 +103,7 @@ export default function Contact() {
               <div className="mt-4">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium"
                 >
                   Message
                 </label>
@@ -111,7 +111,7 @@ export default function Contact() {
                   name="message"
                   id="message"
                   required
-                  className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-blue-500 bg-gray-200 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-900 rounded-md px-2 "
                   rows="5"
                   onChange={handleChange}
                   value={formData.message}
@@ -120,7 +120,7 @@ export default function Contact() {
               <div className="mt-4">
                 <button
                   type="submit"
-                  className="py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+                  className="py-2 px-4 bg-gray-500 text-white rounded-md hover:bg-yellow-600"
                 >
                   Send Message
                 </button>

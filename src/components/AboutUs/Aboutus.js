@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Aboutus() {
   return (
     <section className="w-full py-24">
-      <div className="ml-12 hidden md:block text-center">
-        <div className="text-center">
-          <div className="text-xl md:text-lg lg:text-6xl font-normal">
+      <div className="ml-12 hidden md:block">
+        <div className="text-center font-serif">
+          <div className="text-xl md:text-lg lg:text-6xl  font-normal">
             ABOUT US
           </div>
         </div>
@@ -22,11 +22,11 @@ export default function Aboutus() {
             </div>
           </div>
           <div className=" w-full md:w-2/2">
-            <div className="text-xl md:text-lg lg:text-xl text-red-600 mt-8">
+            <div className="text-xl md:text-lg font-sans lg:text-xl font-bold mt-8">
               Welcome to Glodaris
             </div>
 
-            <div className="text-xl md:text-lg lg:text-base font-light text-gray-400 mt-8 leading-6 break-words">
+            <div className="text-sm font-mono md:text-sm lg:text-base font-light mt-8 leading-6 ">
               GLODARIS is a Global independent consultancy firm focusing on,
               Lean Manufacturing System, Lean Six sigma Services, Data and
               Information Management, Data collection, Bigdata, Geographical
@@ -38,7 +38,7 @@ export default function Aboutus() {
             </div>
 
             <div className="mt-8">
-              <button class="bg-red-400 hover:bg-blue-500 text-white font-bold py-2 px-4 border bg-red-400 rounded">
+              <button class="bg-gray-500 hover:bg-yellow-600 font-mono text-white font-bold py-2 px-4 border bg-gray-500 rounded">
                 <Link href={"lm"}>Learn more</Link>
               </button>
             </div>
@@ -49,7 +49,7 @@ export default function Aboutus() {
       {/* Responsive About section */}
       <div className="md:hidden ">
         <div className="text-center" style={{ marginTop: "-2rem" }}>
-          <div className="text-2xl  font-normal">ABOUT US</div>
+          <div className="text-2xl font-serif font-normal">ABOUT US</div>
         </div>
 
         <div className="md:px-20 flex flex-col md:flex-row lg:justify-between mt-8">
@@ -67,11 +67,11 @@ export default function Aboutus() {
           </div>
 
           <div className=" w-full md:w-2/2">
-            <div className="text-xl md:text-lg lg:text-xl text-red-600 mt-8 ml-4">
+            <div className="text-xl font-sans md:text-lg lg:text-xl font-bold mt-8 ml-4">
               Welcome to Glodaris
             </div>
 
-            <div className="text-sm  font-light text-gray-400 mt-4 ml-4 tracking-wider">
+            <div className="text-sm font-mono  font-light  mt-4 ml-4 tracking-wider">
               GLODARIS is a Global independent
               <br />
               consultancy firm focusing on,
@@ -100,7 +100,7 @@ export default function Aboutus() {
             </div>
 
             <div className="mt-8 ml-4">
-              <button class="bg-red-400 hover:bg-blue-500 text-white font-bold py-2 px-4 border bg-red-400 rounded text-sm">
+              <button class="bg-gray-500 hover:bg-yellow-600 font-mono text-white font-bold py-2 px-4 border bg-gray-500 rounded text-sm">
                 <Link href={"lm"}>Learn more</Link>
               </button>
             </div>

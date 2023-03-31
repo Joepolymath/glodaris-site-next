@@ -21,7 +21,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <Format>
-      <TechC></TechC>
+     
+     <TechC></TechC>
+     
       <Aboutus></Aboutus>
       <Services></Services>
       <Publications></Publications>

@@ -6,9 +6,9 @@ import { BsFillEnvelopeFill, BsTwitter } from "react-icons/bs";
 
 export default function Footer() {
   return (
-    <section className="w-full py-12 bg-red-400">
-      <div>
-        <div className="flex flex-col md:flex-row mt-12 ml-4">
+    <section className="w-full py-12 bg-gray-500">
+      <div className="px-8">
+        <div className="flex flex-col font-mono md:flex-row mt-12 ml-4">
           <div className="w-full md:w-2/2 lg:ml-12">
             <div className="text-xl md:text-lg lg:text-3xl font-bold tracking-widest text-black">
               QUICK LINKS
@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
 
             <div className="lg:mt-8">
-              <HiLocationMarker className="text-blue-600 text-xl" />
+              <HiLocationMarker className="text-yellow-600 text-xl" />
               <div className="mt-2 text-white font-light text-sm md:text-lg lg:text-xl ">
                 Suite 101,1st Floor Plot 559c, NCWS Building, Beside Shagalinku
                 By FCDA, Area 11,Garki Abuja FCT
@@ -53,7 +53,7 @@ export default function Footer() {
             </div>
 
             <div className="mt-4">
-              <BsFillEnvelopeFill className="text-blue-600 text-xl" />
+              <BsFillEnvelopeFill className="text-yellow-600 text-xl" />
               <div className="mt-2 text-white font-light text-sm md:text-lg lg:text-xl ">
                 <Link href={"info@gloaris.com"}>info@gloaris.com</Link>
               </div>
@@ -78,19 +78,15 @@ export default function Footer() {
 
               <Link href={"tw"}>
                 {" "}
-                <BsTwitter className="ml-8 mt-4 text-xl text-blue-400" />
+                <BsTwitter className="ml-8 mt-4 text-xl text-blue-600" />
               </Link>
             </div>
           </div>
 
-          <div className="w-full md:w-2/2 lg:ml-12">
-            <div className="text-xl md:text-lg lg:text-3xl font-bold tracking-widest text-white">
-              GALLERY
-            </div>
-          </div>
+          
         </div>
 
-        <div className="text-center mt-20">
+        <div className="text-center font-mono mt-20">
           <div className="text-black font-bold text-sm md:text-lg lg:text-xl">
             GLODARIS © 2023. All Right Reserved
           </div>

@@ -43,16 +43,16 @@ export default function Feedbacks() {
   };
 
   return (
-    <section className="w-full bg-blue-500 py-24">
+    <section className="w-full py-24">
       <div>
         <div className="text-center">
-          <div className="text-xl md:text-lg lg:text-4xl font-normal text-white">
+          <div className="text-xl md:text-lg font-serif lg:text-4xl font-normal px-12">
             FEEDBACK FROM SOME OF OUR CLIENTS WHO PARTICIPATED IN THE LEAN
             MANUFACTURING WORKSHOP 2020
           </div>
         </div>
 
-        <div className="text-center  mt-16 hidden md:flex">
+        <div className="  mt-16 hidden md:flex px-12">
           <Swiper
             onSwiper={setSwiperRef}
             slidesPerView={3}
@@ -69,22 +69,22 @@ export default function Feedbacks() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="bg-transparent rounded-lg shadow-lg py-12 pl-4">
-                <div className="text-black font-bold text-xl ">
+              <div className="bg-yellow-600 rounded-lg font-mono shadow-lg py-12 pl-4" style={{height:'33rem'}}>
+                <div className="text-black font-normal font-mono text-lg ">
                   NAME:{" "}
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     Mr Kazeem Alolade
                   </span>
                 </div>
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   ORGANIZATION:{" "}
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     11plc (formerly Mobil oil Nig )
                   </span>
                 </div>
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   FEEDBACK:
-                  <span className="text-white font-light text-sm">
+                  <span className="text-white font-light font-mono text-sm">
                     {" "}
                     This conference workshop is highly educative and will enable
                     elimiantion of waste in manufacturing processes. The VSM and
@@ -99,25 +99,25 @@ export default function Feedbacks() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-transparent rounded-lg shadow-lg py-12 pl-4">
-                <div className="text-black font-bold text-xl ">
+              <div className="bg-yellow-600 rounded-lg shadow-lg py-12 pl-4">
+                <div className="text-black font-normal font-mono text-lg ">
                   NAME:{" "}
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     Akambi James Ola
                   </span>
                 </div>
 
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   ORGANIZATION:
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     {" "}
                     Dekoolar Nig ltd
                   </span>
                 </div>
 
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   FEEDBACK:
-                  <span className="text-white font-light text-sm">
+                  <span className="text-white font-light font-mono text-sm">
                     {" "}
                     Waste management through WORMPITU identification through
                     value stream mapping, i am now a better manager. Through
@@ -126,9 +126,9 @@ export default function Feedbacks() {
                     how to run my company more profitable.{" "}
                   </span>
                 </div>
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   NOTE:
-                  <span className="text-white font-light text-sm">
+                  <span className="text-white font-light font-mono text-sm">
                     {" "}
                     My advice to the organizer(i personally advice that you
                     follow us up.) Thanks.
@@ -137,21 +137,21 @@ export default function Feedbacks() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-transparent rounded-lg shadow-lg py-12 pl-4">
-                <div className="text-black font-bold text-xl ">
+              <div className="bg-yellow-600 rounded-lg shadow-lg py-12 pl-4" style={{height:'33rem'}}>
+                <div className="text-black font-normal font-mono text-lg ">
                   NAME:{" "}
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     Daniel Ozolua
                   </span>
                 </div>
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   ORGANIZATION:{" "}
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     Crown ARC
                   </span>
                 </div>
 
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   FEEDBACK:{" "}
                   <span className="text-white font-light text-sm">
                     Base on continuous improvement lecture i received using
@@ -165,23 +165,23 @@ export default function Feedbacks() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-transparent rounded-lg shadow-lg py-12 pl-4">
-                <div className="text-black font-bold text-xl ">
+              <div className="bg-yellow-600 rounded-lg shadow-lg py-12 pl-4" style={{height:'33rem'}}>
+                <div className="text-black font-normal font-mono text-lg ">
                   NAME:{" "}
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     Onyinye Macfoy
                   </span>
                 </div>
 
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   ORGANIZATION:{" "}
-                  <span className="text-white font-normal text-xl">
+                  <span className="text-white font-normal font-mono text-lg">
                     11plc (formerly Mobil oil Nig)
                   </span>
                 </div>
-                <div className="text-black font-bold text-xl mt-8">
+                <div className="text-black font-normal font-mono text-lg mt-8">
                   FEEDBACK:{" "}
-                  <span className="text-white font-light text-sm">
+                  <span className="text-white font-light font-mono text-sm">
                     <ul>
                       <li>Excellent Content</li>
                       <li>Very Insignificant</li>
@@ -195,7 +195,7 @@ export default function Feedbacks() {
         </div>
 
         {/* Responsive */}
-        <div className="text-center  mt-16 md:hidden">
+        <div className="text-center  mt-16 md:hidden px-4">
           <Swiper
             onSwiper={setSwiperRef}
             slidesPerView={1}
@@ -212,7 +212,7 @@ export default function Feedbacks() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="bg-red-400 rounded-lg shadow-lg py-12 pl-4">
+              <div className="bg-yellow-600 rounded-lg font-mono shadow-lg py-12 pl-4" >
                 <div className="text-white">NAME: Mr Kazeem Alolade</div>
                 <div className="text-white mt-4">
                   ORGANIZATION: 11plc (formerly Mobil oil Nig )
@@ -230,7 +230,7 @@ export default function Feedbacks() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-red-400 rounded-lg shadow-lg py-12 pl-4">
+              <div className="bg-yellow-600 rounded-lg font-mono shadow-lg py-12 pl-4" >
                 <div className="text-white mt-4">NAME: Akambi James Ola</div>
 
                 <div className="text-white mt-4">
@@ -251,7 +251,7 @@ export default function Feedbacks() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-red-400 rounded-lg shadow-lg py-12 pl-4">
+              <div className="bg-yellow-600 rounded-lg font-mono shadow-lg py-12 pl-4">
                 <div className="text-white mt-4">NAME: Daniel Ozolua</div>
                 <div className="text-white mt-4">ORGANIZATION: Crown ARC</div>
 
@@ -266,7 +266,7 @@ export default function Feedbacks() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-red-400 rounded-lg shadow-lg py-12 pl-4">
+              <div className="bg-yellow-600 rounded-lg font-mono shadow-lg py-12 pl-4">
                 <div className="text-white mt-4">NAME: Onyinye Macfoy</div>
 
                 <div className="text-white mt-4">
