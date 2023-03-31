@@ -3,11 +3,11 @@ import Navbar from "@/components/Navigation/Navbar";
 export default function Services() {
   return (
     <div>
-      <section className="bg-blue-50 w-full h-60 lg:h-96">
+      <section className="bg-yellow-600 w-full h-60 lg:h-96">
         <Navbar></Navbar>
 
-        <div className="lg:mt-32  mt-12 text-center">
-          <div className="text-4xl md:text-xl lg:text-8xl text-red-400 font-extrabold">
+        <div className="lg:mt-32  mt-12 font-serif text-center">
+          <div className="text-4xl md:text-xl lg:text-7xl text-white  font-extrabold">
             LEAN SIX SIGMA SERVICES
           </div>
 
@@ -20,7 +20,7 @@ export default function Services() {
       <div className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col font-mono justify-center">
               <p className="text-gray-700 text-sm lg:text-lg mb-6 font-light tracking-wide">
                 GLODARIS is an international consulting firm that specializes in
                 working with companies to enable them to successfully design and
@@ -44,7 +44,7 @@ export default function Services() {
               </p>
             </div>
 
-            <div className="flex justify-center md:justify-end lg:ml-12 ">
+            <div className="flex font-mono justify-center md:justify-end lg:ml-12 ">
               <p className="text-gray-700 text-sm mb-6 font-light tracking-wide lg:text-lg ">
                 Lean is a systematic method for the elimination of wastes within
                 a process. These include wastes created through unevenness in
@@ -60,17 +60,17 @@ export default function Services() {
         <div className="h-full flex items-center justify-center hidden md:flex">
           <div
             className="border-r-2 border-gray-500 h-96  ml-8  font-extrabold"
-            style={{ marginTop: "-28rem", height: "30rem" }}
+            style={{ marginTop: "-36rem", height: "40rem" }}
           ></div>
         </div>
       </div>
 
       <div className="lg:py-16 py-4 ">
-        <div className="text-center text-xl md:text-xl lg:text-3xl font-extrabold">
+        <div className="text-center text-xl font-serif md:text-xl lg:text-3xl font-extrabold">
           Advantages of Lean Manufacturing
         </div>
 
-        <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8 mt-4 lg:mt-12">
+        <div className="max-w-7xl mx-auto font-mono px-8 sm:px-6 lg:px-8 mt-4 lg:mt-12">
           <ol className="list-decimal text-gray-700 text-sm lg:text-lg mb-6 font-light tracking-wide ">
             <li>Inventory Reduction 50-90%</li>
             <li>Increased Productivity 65%</li>
@@ -85,19 +85,19 @@ export default function Services() {
             <li>Throughput rate 100%</li>
             <li>Build to Order vs. Build to Forecast</li>
           </ol>
-          <div className=" text-sm md:text-xl lg:text-xl font-normal">
+          <div className=" text-sm font-mono md:text-xl lg:text-xl font-normal">
             Contact Us or Call:+234(0)9099677750.
           </div>
         </div>
       </div>
 
       <div className="lg:py-16 py-4">
-        <div className="text-center text-lg md:text-xl lg:text-2xl font-extrabold text-red-400">
+        <div className="text-center text-lg md:text-xl lg:text-2xl font-extrabold font-serif">
           ✔ Lean Consulting Services
         </div>
 
-        <div className=" px-4  lg:px-8 mt-4 lg:mt-12">
-          <div className="flex justify-center md:justify-end lg:text-lg  text-gray-700 text-sm mb-6 font-normal tracking-wide">
+        <div className="   lg:px-8 mt-4 lg:mt-12">
+          <div className="flex justify-center md:justify-end font-mono lg:text-lg  text-gray-700 px-12 text-sm mb-6 font-normal tracking-wide">
             Our model for Lean Transformation is different than most other lean
             consulting firms. Our value add is in the coaching and training we
             provide to facilitate culture change while developing our clients'
@@ -115,7 +115,7 @@ export default function Services() {
         </div>
 
         <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8 mt-4 lg:mt-12">
-          <ul className="list-disc text-gray-700 text-sm lg:text-lg mb-6 font-light tracking-wide ">
+          <ul className="list-disc text-gray-700 font-mono text-sm lg:text-lg mb-6 font-light tracking-wide ">
             <li>Lean Transformation</li>
             <li>Lean Six Sigma Transformation</li>
             <li>Lean Assessment</li>
@@ -139,17 +139,17 @@ export default function Services() {
       </div>
 
       <div className="lg:py-16 py-4">
-        <div className="text-center text-lg md:text-xl lg:text-2xl font-extrabold text-red-400">
+        <div className="text-center text-lg md:text-xl font-serif lg:text-2xl font-extrabold">
         ✔ Lean Transformation
         </div>
 
-        <div className=" px-4  lg:px-8 mt-4 lg:mt-12">
-          <div className="flex lg:text-lg  text-gray-700 text-sm mb-6 font-bold tracking-wide">
+        <div className=" px-12  lg:px-8 mt-4 lg:mt-12">
+          <div className="flex lg:text-lg  text-gray-700 font-mono text-sm mb-6 font-bold tracking-wide">
           Lean Transformation: Phase 1 (3 - 6 months)
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8 mt-2 lg:mt-4">
+        <div className="max-w-7xl mx-auto px-8 sm:px-6 font-mono lg:px-8 mt-2 lg:mt-4">
           <ul className="list-disc text-gray-700 text-sm lg:text-lg mb-6 font-light tracking-wide ">
             <li>Strategy Deployment / Perform an Assessment / Train Executive Team</li>
             <li>Identify vision, goals, True North metrics, Key value streams. Identify resources and develop detailed plan.</li>
@@ -171,13 +171,13 @@ export default function Services() {
         </div>
 
         
-        <div className=" px-4  lg:px-8 mt-4 lg:mt-12">
-          <div className="flex lg:text-lg  text-gray-700 text-sm mb-6 font-bold tracking-wide">
+        <div className=" px-12  lg:px-8 mt-4 lg:mt-12">
+          <div className="flex lg:text-lg font-mono  text-gray-700 text-sm mb-6 font-bold tracking-wide">
           Lean Transformation: Phase 2 (6 - 8 Months)
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8 mt-2 lg:mt-4">
+        <div className="max-w-7xl font-mono mx-auto px-8 sm:px-6 lg:px-8 mt-2 lg:mt-4">
           <ul className="list-disc text-gray-700 text-sm lg:text-lg mb-6 font-light tracking-wide ">
             <li>Strategy Deployment / Perform an Assessment</li>
             <li>Identify vision, goals, metrics, and key areas of opportunity within support functions and other value streams</li>

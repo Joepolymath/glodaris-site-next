@@ -11,7 +11,7 @@ export default function Aboutpage() {
         <Navbar></Navbar>
 
         <div className="lg:mt-32  mt-12 font-serif text-center">
-          <div className="text-5xl md:text-xl lg:text-9xl  font-extrabold">
+          <div className="text-5xl md:text-xl text-white lg:text-9xl  font-extrabold">
             ABOUT US
           </div>
 
@@ -24,7 +24,7 @@ export default function Aboutpage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex flex-col justify-center">
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">
+              <h2 className="text-3xl font-bold font-mono text-gray-800 mb-4">
                 What we do?
               </h2>
               <p className="text-gray-700 text-sm font-mono lg:text-lg  mb-6 font-light tracking-wide">

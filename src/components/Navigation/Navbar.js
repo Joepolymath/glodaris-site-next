@@ -16,11 +16,7 @@ export default function Navbar() {
             </Link>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/">
-                  <div className="text-gray-900 hover:text-yellow-600 px-3 py-2 rounded-md text-sm font-medium">
-                    Home
-                  </div>
-                </Link>
+               
                 <Link href="/Aboutpage">
                   <div className="text-white py-2 bg-yellow-600 rounded-md hover:text-black px-3 py-2 rounded-md text-sm font-medium">
                     About us
@@ -29,6 +25,11 @@ export default function Navbar() {
                 <Link href="/Services">
                   <div className="text-gray-900  hover:text-yellow-600 px-3 py-2 rounded-md text-sm font-medium">
                     Our Services
+                  </div>
+                </Link>
+                <Link href="ItServices">
+                  <div className="text-gray-900 hover:text-yellow-600 px-3 py-2 rounded-md text-sm font-medium">
+                    IT Services
                   </div>
                 </Link>
                 <Link href="/Manufacturingpage">
@@ -86,11 +87,7 @@ export default function Navbar() {
               Toggle ? "left-[0]" : "left-[-100%]"
             }`}
           >
-            <Link href="/">
-              <div className=" ml-4 px-3 py-2 font-light text-gray-400 font-light text-gray-400 rounded-md text-sm font-medium text-gray-900 hover:text-gray-700">
-                Home
-              </div>
-            </Link>
+           
             <Link href="Aboutpage">
               <div className="ml-4 px-3 text-white py-2 bg-yellow-600  text-sm font-medium text-gray-900 hover:text-gray-700">
                 About Us
@@ -101,7 +98,11 @@ export default function Navbar() {
                 Our services
               </div>
             </Link>
-
+            <Link href="ItServices">
+              <div className=" ml-4 px-3 py-2 font-light text-gray-400 font-light text-gray-400 rounded-md text-sm font-medium text-gray-900 hover:text-gray-700">
+                IT Services
+              </div>
+            </Link>
             <Link href="/Manufacturingpage">
               <div className="ml-4 px-3 py-2 font-light text-gray-400 rounded-md text-sm font-medium text-gray-900 hover:text-gray-700">
                 Manufacturing
