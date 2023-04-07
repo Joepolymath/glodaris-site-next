@@ -100,7 +100,7 @@ function Slide() {
 
         <div className="mt-4 text-xs">
           <button class="bg-gray-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-            <Link href={"lm"}>Learn more</Link>
+            <Link href={"WAD"}>Learn more</Link>
           </button>
         </div>
       </div>
@@ -126,7 +126,7 @@ function Slide2() {
 
         <div className="mt-4 text-xs">
           <button class="bg-gray-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-            <Link href={"lmsoftwaredev"}>Learn more</Link>
+            <Link href={"WAD"}>Learn more</Link>
           </button>
         </div>
       </div>
@@ -152,7 +152,7 @@ function Slide3() {
 
         <div className="mt-4 text-xs">
           <button class="bg-gray-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-            <Link href={"lmcustomdev"}>Learn more</Link>
+            <Link href={"CSD"}>Learn more</Link>
           </button>
         </div>
       </div>
@@ -178,7 +178,7 @@ function Slide4() {
 
         <div className="mt-4 text-xs">
           <button class="bg-gray-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-            <Link href={"lmds"}>Learn more</Link>
+            <Link href={"DSBDA"}>Learn more</Link>
           </button>
         </div>
       </div>
@@ -204,7 +204,7 @@ function Slide5() {
 
         <div className="mt-4 text-xs">
           <button class="bg-gray-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-            <Link href={"lm"}>Learn more</Link>
+            <Link href={"CS"}>Learn more</Link>
           </button>
         </div>
       </div>

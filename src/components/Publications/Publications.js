@@ -35,7 +35,7 @@ export default function Publications() {
                   <span className="text-xs">
                     {" "}
                     <button class="bg-gray-500 font-mono hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-                      <Link href={"readmore"}>Read more</Link>
+                      <Link href={"Pub1"}>Read more</Link>
                     </button>
                   </span>
                 </p>
@@ -72,7 +72,7 @@ export default function Publications() {
                   <span className="text-xs">
                     {" "}
                     <button class="bg-gray-500 font-mono hover:bg-yellow-600 text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-                      <Link href={"readmore"}>Read more</Link>
+                      <Link href={"Pub2"}>Read more</Link>
                     </button>
                   </span>
                 </p>

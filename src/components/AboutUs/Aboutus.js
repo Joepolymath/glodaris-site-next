@@ -39,7 +39,7 @@ export default function Aboutus() {
 
             <div className="mt-8">
               <button class="bg-gray-500 hover:bg-yellow-600 font-mono text-white font-bold py-2 px-4 border bg-gray-500 rounded">
-                <Link href={"lm"}>Learn more</Link>
+                <Link href={"Aboutpage"}>Learn more</Link>
               </button>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function Aboutus() {
 
             <div className="mt-8 ml-4">
               <button class="bg-gray-500 hover:bg-yellow-600 font-mono text-white font-bold py-2 px-4 border bg-gray-500 rounded text-sm">
-                <Link href={"lm"}>Learn more</Link>
+                <Link href={"Aboutpage"}>Learn more</Link>
               </button>
             </div>
           </div>
